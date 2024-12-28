@@ -1,50 +1,49 @@
 # README.md
 
 ## Repository Overview
-This repository contains two core notebooks and an environment notebook:
+This repository contains three core notebooks, each focused on different aspects of applied statistics:
 
-1. **tasks.ipynb**
-   - Covers four statistical tasks:
-     - Permutations & Combinations (Lady Tasting Tea)
-     - Checking Normal Distribution with `numpy`
-     - t-Test Calculation (Before vs. After)
-     - Estimating Type II Error with One-Way ANOVA
+1. **tasks.ipynb**  
+   - Demonstrates four statistical tasks:  
+     - Permutations & Combinations (Lady Tasting Tea)  
+     - Checking Normal Distribution with `numpy`  
+     - t-Test Calculation (Before vs. After)  
+     - Estimating Type II Error with One-Way ANOVA  
 
-2. **project.ipynb**
-   - Dedicated to analysing the **PlantGrowth** dataset, which includes:
-     - T-tests comparing treatment groups
-     - ANOVA across three groups (`ctrl`, `trt1`, `trt2`)
-     - Justification for ANOVA vs. multiple t-tests
+2. **project.ipynb**  
+   - Focuses on analyzing the **PlantGrowth** dataset, including:  
+     - T-tests comparing treatment groups  
+     - ANOVA across three groups (`ctrl`, `trt1`, `trt2`)  
+     - Justification for ANOVA versus multiple t-tests  
 
-3. **environment.ipynb**
-   - Documents environment setup, required libraries, and version checks.
+3. **environment.ipynb**  
+   - Details the environment setup, required libraries, and version checks.
 
 ## Repository Structure
 - `tasks.ipynb`: Notebook demonstrating four distinct statistical tasks.
 - `project.ipynb`: Notebook focused on the PlantGrowth dataset.
-- `environment.ipynb`: Details and validates the Python environment, capturing library versions.
-- `data/` (optional): Stores CSV files such as `PlantGrowth.csv`.
+- `environment.ipynb`: Documents the Python environment setup and library versions.
+- `data/` (optional): Directory to store CSV files such as `PlantGrowth.csv`.
 - `requirements.txt`: Lists necessary Python packages for reproducibility.
 - `README.md`: This file, describing how to use the repository.
 
 ## Key Features
 - **Comprehensive Statistical Methods**: Includes t-tests, ANOVA, and type II error estimation.
-- **Detailed Environment Documentation**: Ensures reproducibility through a well-documented setup.
-- **Flexible Analysis**: Supports exploration of the PlantGrowth dataset with both t-tests and ANOVA.
+- **Detailed Environment Documentation**: Provides a reproducible Python environment setup.
+- **Flexible Analysis**: Enables exploration of the PlantGrowth dataset with robust statistical methods.
 
 ## Expected Results
-- Visualization of distributions using matplotlib and seaborn.
+- Visualization of distributions using `matplotlib` and `seaborn`.
 - Insights from statistical tests with detailed explanations.
 
 ## Setup and Usage Instructions
 
 ### Installation
-1. **Clone or Download the Repository**
+1. **Clone or Download the Repository**:
    ```bash
    git clone https://github.com/nf-me/8651-applied-statistics.git
-cd 8651-applied-statistics
+   cd 8651-applied-statistics
    ```
-
 2. **Install Requirements**:
    ```bash
    pip install -r requirements.txt
