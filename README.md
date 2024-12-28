@@ -41,7 +41,7 @@ This repository contains two core notebooks and an environment notebook:
 ### Installation
 1. **Clone or Download the Repository**
    ```bash
-   git clone https://github.com/nf-me/8651-applied-statistics.git
+   git clone https://github.com/YourUsername/YourRepo.git
    cd YourRepo
    ```
 
@@ -72,3 +72,6 @@ This repository contains two core notebooks and an environment notebook:
 
 ## License
 This project is licensed under the terms of the MIT license. See the [LICENSE](LICENSE) file for details.
+
+## Acknowledgments
+- The formatting, wording, and some variable names were refined with the assistance of GitHub Copilot. This tool was utilised exclusively for crafting explanations, enhancing readability, and improving clarity; all code development, statistical analyses, and interpretations are entirely my own.
