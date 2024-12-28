@@ -41,8 +41,8 @@ This repository contains two core notebooks and an environment notebook:
 ### Installation
 1. **Clone or Download the Repository**
    ```bash
-   git clone https://github.com/YourUsername/YourRepo.git
-   cd YourRepo
+   git clone https://github.com/nf-me/8651-applied-statistics.git
+cd 8651-applied-statistics
    ```
 
 2. **Install Requirements**:
